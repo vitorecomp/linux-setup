@@ -4,12 +4,21 @@ Rep
 
 ## Programs
 
+Install i3:
+`sudo apt install git`
+sudo apt-get install -y i3blocks
+
 Install i3:  
 `sudo apt install i3`
+
 Install visual code:
 `snap install code --classic`
+
 Install intellij-idea-community:
 `sudo snap install intellij-idea-community --classic`
+
+Install Anaconda:
+
 
 ## Repositories to clone
 

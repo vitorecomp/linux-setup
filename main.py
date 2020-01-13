@@ -26,7 +26,7 @@ folders = ['cloud',
 ]
 
 for i in folders:
-	folder = workspace + '/' + folders[i]
+	folder = workspace + '/' + i
 	if not os.path.exists(folder):
 		os.mkdir(folder)
 
