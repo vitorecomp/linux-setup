@@ -14,7 +14,13 @@ if not os.path.exists(resource_folder):
 home = expanduser("~")
 #copy the i3 config file
 source = home + '/.config/i3'
-destination = resource_folder + '/config'
+destination = resource_folder + '/i3'
+
+shutil.copytree(source, destination)
+
+#copy rofi theme
+source = home + '/.config/rofi'
+destination = resource_folder + '/rofi'
 
 shutil.copytree(source, destination)
 
@@ -31,3 +37,4 @@ source = home + '/.fonts'
 destination = resource_folder + '/fonts'
 
 shutil.copytree(source, destination)
+
