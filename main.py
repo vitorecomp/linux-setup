@@ -4,6 +4,9 @@ import os
 import shutil 
 from os.path import expanduser
 
+#fazer o backup dos arquivos originail
+#apagar os arquivos originais
+
 #copy the i3 config file
 resource_folder = './resource'	
 source = resource_folder + '/config'
@@ -11,6 +14,12 @@ home = expanduser("~")
 destination = home + '/.config/i3'
 
 shutil.copytree(source, destination)
+
+#copy bash file
+source = resource_folder + '/bash/.zshrc'
+destination = home + '/.zshrc'
+
+shutil.copyfile(source, destination)
 
 #creating worksapce directory
 workspace = home + '/workspace'
