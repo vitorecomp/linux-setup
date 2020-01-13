@@ -18,7 +18,7 @@ destination = resource_folder + '/i3'
 
 shutil.copytree(source, destination)
 
-#copy the i3 config file
+#copy rofi theme
 source = home + '/.config/rofi'
 destination = resource_folder + '/rofi'
 
@@ -38,9 +38,3 @@ destination = resource_folder + '/fonts'
 
 shutil.copytree(source, destination)
 
-#copy rofi theme
-source = home + '/.zshrc'
-os.mkdir(resource_folder+ '/bash')
-destination = resource_folder + '/bash/.zshrc'
-
-shutil.copyfile(source, destination)
