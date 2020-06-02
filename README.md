@@ -82,7 +82,6 @@ sudo chmod +x /usr/local/bin/docker-compose
 ./cloud/backup-server
 ./cloud/data-server
 ./cloud/cloud-internal-env
-./cloud/garbage
 ./cloud/cloud-complex-env
 ./opensource
 ./opensource/sudoku-solver
