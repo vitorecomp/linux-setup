@@ -8,12 +8,10 @@ Install i3:
 `sudo apt install git`
 sudo apt-get install -y i3blocks
 sudo apt-get install zsh curl git
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "\$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 sudo apt-get install feh
 
-
 install all the fonts
-
 
 Install i3:  
 `sudo apt install i3`
@@ -32,7 +30,7 @@ bash Anaconda3-2019.03-Linux-x86_64.sh
 Install docker
 sudo apt install docker.io
 sudo systemctl start docker
-sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-\$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 
 ## Repositories to clone
@@ -56,6 +54,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 ./personal/udacity-react
 ./personal/udacity-neural
 ./personal/node-crawler
+
 ./master
 ./master/sisint-genect-training
 ./master/path-planning
@@ -64,9 +63,11 @@ sudo chmod +x /usr/local/bin/docker-compose
 ./master/drone-remote-runner
 ./master/drone-runner
 ./master/Sudoku
+
 ./presentations
 ./presentations/kubernetes
 ./presentations/cloud-internal-env
+
 ./work
 ./work/estudologia
 ./work/public-server
@@ -74,17 +75,20 @@ sudo chmod +x /usr/local/bin/docker-compose
 ./work/akuntsu
 ./work/public-client
 ./work/amef
+
 ./cloud
 ./cloud/microgen-client
-./cloud/cloud-config
 ./cloud/microgen-server
+./cloud/cloud-config
 ./cloud/cloud-manager
-./cloud/backup-server
-./cloud/data-server
 ./cloud/cloud-internal-env
 ./cloud/cloud-complex-env
+
+./cloud/cloud-amef
+
 ./opensource
 ./opensource/sudoku-solver
+./opensource/backup-server
 ./opensource/iot-notifier
 ./opensource/kong-api-client
 ./opensource/nuk-home
