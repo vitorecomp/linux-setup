@@ -1,5 +1,15 @@
 # Ubuntu setup - With I3
 
+## Description of Setup
+
+## Idea
+
+Setup the start off the computer on a simple desktop computer
+
+## Drives
+
+Install of the cuda drivers
+
 ## Programs
 
 >Install i3:
