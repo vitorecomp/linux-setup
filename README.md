@@ -13,6 +13,8 @@ Reposiory to keep all my setup code, for my linux setups
 
 ## Repositories to clone
 
+### Private Repositories
+
 * ./personal
 * ./personal/.idea
 * ./personal/pc-config
@@ -33,6 +35,8 @@ Reposiory to keep all my setup code, for my linux setups
 * ./personal/udacity-neural
 * ./personal/node-crawler
 
+### Master Degree Repositories
+
 * ./master
 * ./master/sisint-genect-training
 * ./master/path-planning
@@ -42,9 +46,13 @@ Reposiory to keep all my setup code, for my linux setups
 * ./master/drone-runner
 * ./master/Sudoku
 
+### Presentations Repositories
+
 * ./presentations
 * ./presentations/kubernetes
 * ./presentations/cloud-internal-env
+
+### Work Repositories
 
 * ./work
 * ./work/estudologia
@@ -54,6 +62,8 @@ Reposiory to keep all my setup code, for my linux setups
 * ./work/public-client
 * ./work/amef
 
+### Cloud Repositories
+
 * ./cloud
 * ./cloud/microgen-client
 * ./cloud/microgen-server
@@ -61,8 +71,9 @@ Reposiory to keep all my setup code, for my linux setups
 * ./cloud/cloud-manager
 * ./cloud/cloud-internal-env
 * ./cloud/cloud-complex-env
-
 * ./cloud/cloud-amef
+
+### Opensource Repositories
 
 * ./opensource
 * ./opensource/sudoku-solver
