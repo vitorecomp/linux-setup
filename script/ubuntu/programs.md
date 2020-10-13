@@ -6,11 +6,13 @@
     sudo apt install i3
 
 >Install i3:
-    sudo apt install git
-    sudo apt-get install -y i3blocks
-    sudo apt-get install zsh curl git
-    sh -c "\$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-    sudo apt-get install feh
+```shell
+sudo apt install git
+sudo apt-get install -y i3blocks
+sudo apt-get install zsh curl git
+sh -c "\$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sudo apt-get install feh
+```
 
 >install all the fonts
 mv resources/fonts ~/.fonts
