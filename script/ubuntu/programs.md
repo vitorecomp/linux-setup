@@ -1,10 +1,4 @@
-# Ubuntu setup - With I3
-
-## Description of Setup
-
-## Idea
-
-Setup the start off the computer on a simple desktop computer
+# Fast guide to install some programs
 
 ## Drives
 
@@ -12,43 +6,49 @@ Install of the cuda drivers
 
 ## Programs
 
->Install i3:
+> Install i3:
+
 ```shell
 sudo apt install i3
 ```
 
->Install i3:
+> Install i3 utils:
+
 ```shell
-sudo apt install git
 sudo apt-get install -y i3blocks
 sudo apt-get install zsh curl git
 sh -c "\$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 sudo apt-get install feh
 ```
 
->install all the fonts
+> install all the fonts
+
 ```shell
 mv resources/fonts ~/.fonts
 ```
 
->Install visual code:
+> Install visual code:
+
 ```shell
 snap install code --classic
 ```
 
->Install intellij-idea-community:
+> Install intellij-idea-community:
+
 ```shell
 sudo snap install intellij-idea-community --classic
 ```
 
->Install Anaconda:
+> Install Anaconda:
+
 ```shell
 cd tools
 curl -O https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
 bash Anaconda3-2019.03-Linux-x86_64.sh
 ```
 
->Install docker
+> Install docker
+
 ```shell
 sudo apt install docker.io
 sudo systemctl start docker
