@@ -1,0 +1,16 @@
+#should bew on folder /etc/systemd/system/
+
+#to run execute the folling commands
+#
+#systemctl enable change.tty.service
+#systemctl start change.tty.service
+
+[Unit]
+Description=Change login tty number.
+
+[Service]
+Type=idle
+ExecStart=/home/home-server/bin/change.login.tty.sh
+
+[Install]
+WantedBy=multi-user.target 
