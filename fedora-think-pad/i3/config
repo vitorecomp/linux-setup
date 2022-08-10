@@ -13,8 +13,8 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 10
-
+#font pango:monospace 10
+font pango:Red Hat Mono, Font Awesome 5 Brands Regular, Font Awesome 5 Brands Regular, Font Awesome 5 Free Solid, monospace 9
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
@@ -115,23 +115,24 @@ set $monitore HDMI-2
 
 #custo on start
 #name worpaces
+#use gucharmap
 set $workspace1 "1: Terminals "
-set $workspace2 "2: Code "
+set $workspace2 "2: Code "
 set $workspace3 "3: Google "
 set $workspace4 "4: Node "
 set $workspace5 "5: Docker "
-set $workspace6 "6: Folder 🖿"
+set $workspace6 "6: Folder "
 set $workspace7 "7: Other "
 set $workspace8 "8: Running "
 set $workspace9 "9: Telegram "
 set $workspace0 "10: Music "
 
 set $workspace11 "11: Terminals "
-set $workspace12 "12: Code "
+set $workspace12 "12: Code "
 set $workspace13 "13: Google "
 set $workspace14 "14: Node "
 set $workspace15 "15: Docker "
-set $workspace16 "16: Folder 🖿"
+set $workspace16 "16: Folder "
 set $workspace17 "17: Other "
 set $workspace18 "18: Running "
 set $workspace19 "19: Telegram "
